@@ -1,10 +1,87 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
-
-/*font-family: 'Open Sans', Helvetica, Arial, sans-serif;*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap");
 
 body {
-    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-    font-size: 10px;
-    box-sizing: border-box;
-    padding: 3rem;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  box-sizing: border-box;
+  padding: 1rem;
 }
+
+a#myAdLink {
+  display: inline-block;
+  background-color: #2480d6;
+}
+
+#myAd {
+  overflow: hidden;
+  height: 200px;
+  width: 650px;
+  position: relative;
+}
+
+#myAd .myAd__image {
+  background: url(../../src/images/graphics.png) no-repeat 0px 0px;
+  position: absolute;
+}
+
+#myAd #myAd_clouds {
+  height: inherit;
+  width: inherit;
+  top: 0;
+  left: 0;
+}
+
+#myAd #myAd_photo {
+  background-position: 0 -325px;
+  height: 143px;
+  width: inherit;
+  left: 0;
+  bottom: 0;
+}
+
+#myAd #myAd_text-1,
+#myAd #myAd_text-2 {
+  color: #ffff;
+  font-size: 3rem;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  left: 0;
+  text-transform: uppercase;
+  text-shadow: 0 3px 3px rgba(0, 0, 102, 0.5);
+  width: inherit;
+}
+
+#myAd #myAd_marker {
+  background-position: -243px -230px;
+  height: 95px;
+  width: 60px;
+  top: 90px;
+  left: 290px;
+}
+
+#myAd #myAd_shadow {
+  background-position: -311px -236px;
+  height: 16px;
+  width: 35px;
+  top: 175px;
+  left: 306px;
+}
+
+#myAd #myAd_text-3 {
+    background-position: -2px -202px;
+    height: 28px;
+    width: 520px;
+    top: 58px;
+    left: 73px;
+}
+
+#myAd #myAd_surfboard {
+    background-position: -2px -233px;
+    height: 62px;
+    width: 237px;
+    top: 110px;
+    left: 390px;
+}
+
+

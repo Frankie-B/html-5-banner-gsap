@@ -14,6 +14,7 @@ a#myAdLink {
 
 #myAd {
   overflow: hidden;
+    opacity: 0;
   height: 200px;
   width: 650px;
   position: relative;
@@ -25,6 +26,7 @@ a#myAdLink {
 }
 
 #myAd #myAd_clouds {
+    background-repeat: repeat-x;
   height: inherit;
   width: inherit;
   top: 0;
@@ -82,6 +84,12 @@ a#myAdLink {
     width: 237px;
     top: 110px;
     left: 390px;
+}
+
+#myAd #myAd_text-1 span {
+    display: inline-block;
+    margin: 0;
+    position: relative;
 }
 
 
